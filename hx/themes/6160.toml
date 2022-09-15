@@ -1,0 +1,120 @@
+# Author: Paul Graydon <p.y.graydon@gmail.com>
+
+"constant" = { fg = "orange", modifiers = ["reversed"]}
+#"comment" = { fg = "comment", bg = "background_highlight", modifiers = ["italic"] }
+"comment" = { fg = "comment", bg = "background_highlight", modifiers = ["italic"] }
+"constant.character.escape" = { fg = "magenta" }
+"function" = { fg = "purple_bg",  modifiers = ["italic"] }
+"function.macro" = { fg = "cyan" }
+"keyword" = { fg = "cyan", modifiers = ["italic", "reversed"] }
+"keyword.control" = { fg = "magenta", modifiers = ["reversed"]}
+"keyword.control.import" = { fg = "cyan" }
+"keyword.operator" = { fg = "turquoise", modifiers = ["reversed"] }
+"keyword.function" = { fg = "magenta", modifiers = ["italic"] }
+"operator" = { fg = "turquoise" }
+"punctuation" = { fg = "turquoise", bg = "background_menu" }
+#"string" = { fg = "background", bg = "turquoise", modifiers = ["italic", "dim"] }
+"string" = { bg = "light-green", fg = "background"}
+#"string" = { bg = "light-green", fg = "background", modifiers = ["italic"]}
+"string.regexp" = { bg = "light-blue", fg = "background" }
+"tag" = { fg = "red" }
+"type" = { fg = "green" }
+"namespace" = { fg = "blue" }
+"variable" = { fg = "white" , bg = "background_menu"}
+"variable.builtin" = { fg = "red" }
+"variable.other.member" = { fg = "teal" , bg = "background_menu"}
+"variable.parameter" = { fg = "yellow", modifiers = ["italic"] }
+
+"diff.plus" = { fg = "green" }
+"diff.delta" = { fg = "orange" }
+"diff.minus" = { fg = "red" }
+
+"ui.background" = { fg = "orange", bg = "background" }
+"ui.cursor" = { bg = "orange", modifiers = [ ]}
+"ui.cursor.match" = { fg = "orange", modifiers = ["bold", "slow_blink", "reversed"] }
+"ui.cursor.primary" = { fg = "orange", modifiers = ["reversed"]  }
+"ui.cursor.insert" = { fg = "orange", modifiers = ["slow_blink"]}
+"ui.cursorline.primary" = { fg = "orange" }
+"ui.help" = { fg = "foreground", bg = "background_menu" }
+"ui.linenr" = { fg = "foreground_gutter" }
+"ui.linenr.selected" = { fg = "foreground" }
+"ui.menu" = { fg = "foreground", bg = "background_menu" }
+"ui.menu.selected" = { bg = "background_highlight" }
+"ui.popup" = { fg = "foreground", bg = "background_menu" }
+"ui.selection" = { bg = "teal" }
+"ui.selection.primary" = { bg = "background_highlight" }
+"ui.statusline" = { fg = "foreground", bg = "background_menu" }
+"ui.statusline.inactive" = { fg = "foreground_gutter", bg = "background_menu" }
+"ui.text" = { fg = "foreground" }
+"ui.text.focus" = { fg = "cyan" }
+"ui.virtual.ruler" = { bg = "foreground_gutter" }
+"ui.virtual.whitespace" = { fg = "foreground_gutter" }
+"ui.window" = { fg = "black" }
+
+"error" = { fg = "red" }
+"warning" = { fg = "yellow" }
+"info" = { fg = "blue" }
+"hint" = { fg = "teal" }
+"diagnostic" = { modifiers = ["underlined"] }
+"special" = { fg = "orange" }
+
+"markup.heading" = { fg = "cyan", modifiers = ["bold"] }
+"markup.list" = { fg = "cyan" }
+"markup.bold" = { fg = "orange", modifiers = ["bold"] }
+"markup.italic" = { fg = "yellow", modifiers = ["italic"] }
+"markup.link.url" = { fg = "green" }
+"markup.link.text" = { fg = "light-gray" }
+"markup.quote" = { fg = "yellow", modifiers = ["italic"] }
+"markup.raw" = { fg = "cyan" }
+
+[palette]
+red = "#f7768e"
+orange = "#ff9e64"
+yellow = "#e0af68"
+light-green = "#9ece6a"
+green = "#73daca"
+turquoise = "#89ddff"
+light-cyan = "#b4f9f8"
+teal = "#2ac3de"
+cyan = "#7dcfff"
+blue = "#7aa2f7"
+magenta = "#bb9af7"
+white = "#c0caf5"
+light-gray = "#9aa5ce"
+parameters = "#cfc9c2"
+comment = "#565f89"
+black = "#414868"
+foreground = "#a9b1d6"
+foreground_highlight = "#c0caf5"
+foreground_gutter = "#363b54"
+background = "#1a1b26"
+background_highlight = "#30374b"
+background_menu = "#16161e"
+base1 = "#605a52"
+base2 = "#93836c"
+base3 = "#b9a992"
+base4 = "#dcd3c6"
+base5 = "#e4ddd2"
+base6 = "#f1ece4"
+base7 = "#f7f3ee"
+accent = "#6a4cff"
+orange_text = "#5b5143"
+orange_text_sec = "#957f5f"
+orange_bg = "#f7e0c3"
+green_text = "#525643"
+green_text_sec = "#81895d"
+green_bg = "#e2e9c1"
+teal_text = "#465953"
+teal_text_sec = "#5f8c7d"
+teal_bg = "#d2ebe3"
+blue_text = "#4c5361"
+blue_text_sec = "#7382a0"
+blue_bg = "#dde4f2"
+purple_text = "#614c61"
+purple_text_sec = "#9c739c"
+purple_bg = "#f1ddf1"
+diff_add = "#2db448"
+diff_change = "#f2a60d"
+diff_change_dark = "#795306"
+diff_delete = "#ff1414"
+diff_renamed = "#52aeff"
